@@ -1,0 +1,137 @@
+<html>
+
+<head>
+	<style>
+	body
+	{	
+		background-color: #FCFBEF;
+	
+		background-image: url(http://cs-server.usc.edu:45678/hw/hw3/images/background.png);
+	
+		background-repeat: repeat-x;
+	
+		margin: 0;
+		font-family: "Times New Roman"		
+	}
+
+	h2
+	{
+		margin-top:0;
+		margin-left:10px;
+	}
+
+	h3
+	{
+		margin-bottom:0;
+		margin-left:10px;
+	}
+
+	p
+	{
+		margin-top:0;
+		margin-left:10px;
+		font-weight:500;
+		font-size:14px;
+		
+	}
+
+	nav 
+	{
+		display: table;
+		width: 100%;
+		border-collapse: collapse;
+		border: none;
+		margin:0 0 0 70px;
+	}
+
+	nav li
+	{
+		display:table-cell;
+		white-space: nowrap;
+		vertical-align:middle;
+		margin:0;
+		line-height:50px;
+		font-weight:bold;
+		font-size:18px;		
+		float:justify;
+	}
+
+	nav li a
+	{
+		text-decoration:none; 
+		color:#3C3600;
+	}
+
+	nav li a:hover
+	{
+		color:#AC9800;
+	}
+	
+	</style>
+</head>
+
+<body>
+<div style=" min-width:940px;">
+
+	<div style=" width:900px; height:354px; margin:0 auto; background:url(http://cs-server.usc.edu:45678/hw/hw3/images/main.jpg);">	
+		<span style="margin-top:208px; margin-left:485px; margin:bottom:0; display: inline-block;">		
+<pre style="line-height:20px; font-family: Times New Roman, Times, serif;">
+			<span style="font-size:30; font-weight:bold;color:#AC9800; ">Yellow</span><span style="font-size:30; font-weight:bold; color:#F3D861">Flower</span>			
+			<span style="font-size:20; font-weight:bold;color:#776A00;">A site by Brian Calhoun</span>			
+		</pre>
+		</span>
+	</div>
+
+	<div style=" margin:0 auto;text-align:justify;width:940px; height:69px; background:url(http://cs-server.usc.edu:45678/hw/hw3/images/menu.png);">
+		<div style="width:900px;">
+		<nav>
+		<ul style="list-style-type:none; padding:0;  height:50px; display:table-row;width:100%; ">
+  			<li><a href="links.html#home" target="_blank">Home</a></li>
+ 			<li><a href="links.html#about" target="_blank">About</a></li>
+ 			<li><a href="links.html#product" target="_blank">Product</a></li>
+ 			<li><a href="links.html#services" target="_blank">Services</a></li>
+ 			<li><a href="links.html#design" target="_blank">Design</a></li>
+ 			<li><a href="links.html#contact" target="_blank">Contact</a></li>
+		</ul>
+		</nav>
+		</div>
+	</div>
+
+	<div style=" width:900;margin:0 auto;background-color:white;">
+		<h2 style="padding-bottom:7px"> Pig and PigLatin </h2>
+		<h3>About</h3>
+
+		<p>
+		Pig was initially developed at Yahoo! to allow people using Apache Hadoop&#0174; to focus more on analyzing large data sets and spend less time having to 
+		write mapper and reducer programs. Like actual pigs,who eat almost anything, the Pig programming language is designed to handle any kind of data&#150;hence the name!.
+		</p>
+
+		<p>
+		Pig is made up of two components: the first is the language itself, which is called PigLatin (yes, people naming various Hadoop projects do tend to have
+		a sense of humor associated with their naming conventions), and the second is a runtime environment where PigLatin programs are executed. Think of the 
+		relationship between a Java Virtual Machine (JVM) and a Java application. In this section, we'll just refer to the whole entity as Pig.
+		</p>
+
+		<h3>More information</h3>
+
+		<p>
+		Stay on top of all the changes, including Hadoop-based analytics, streaming analytics, warehousing (including BIGSQL), data asset recovery, integration
+		and governance. <b><a href="links.html#normal" target="_blank" style="text-decoration:none; color:E5CC00">This is what a normal link looks like.</a></b>
+		</p>
+
+		<p style="text-align:center">
+		<br>
+		<b><a href="links.html#website" target="_blank" style="text-decoration:none; color:#E5CC00">Website</a></b> by <b><a href="links.html#canvas" target="_blank" style="text-decoration:none; color:#E5CC00">Super Canvas Design</a></b>
+		</p>
+	</div>
+
+</div>
+<noscript>
+</body>
+
+</html>
+
+		background: url(background.png) no-repeat center center fixed ;
+		background-size: 100% 100%;
+		-moz-background-size: cover;
+		background-position: center;
